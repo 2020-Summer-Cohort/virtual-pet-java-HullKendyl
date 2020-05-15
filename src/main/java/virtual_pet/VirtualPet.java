@@ -3,26 +3,50 @@ package virtual_pet;
 //import java.util.Scanner;
 
 public class VirtualPet {
-    void tick(){
+
+    private int hunger;
+    private int thirst;
+    private String name;
+    private int boredom;
+    private int sickness;
+
+    public VirtualPet(String name){
+        this.name = name;
+        this.boredom = 5;
+        this.hunger = 5;
+        this.sickness = 5;
+        this.thirst = 5;
+
     }
 
-    void getHunger() {
+    public String getName() {
+        return name;
     }
 
-    void getThirst() {
+    public int getHunger() {
+        return hunger;
     }
 
-    void getWaste() {
+    public int getThirst() {
+        return thirst;
     }
 
-    void getBoredom() {
+    public int getBoredom() {
+        return boredom;
     }
 
-    void getPlay() {
+    public int getSickness() {
+        return sickness;
     }
 
-    void getTiredness() {
-    }
+    static void myVirtualPetName(String firstName) {
+        System.out.println("Gus");
+
+//    void tick(){
+//    }
+
+
+
 
 
 
@@ -48,5 +72,9 @@ public class VirtualPet {
 //
 //    public int getHungerLevel() {
 //        return hungerLevel;
+    }
+
+    public void playWithPet() {
+        boredom--;
     }
 }
