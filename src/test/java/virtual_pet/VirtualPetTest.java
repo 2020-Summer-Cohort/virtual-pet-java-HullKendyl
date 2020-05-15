@@ -10,6 +10,5 @@ public class VirtualPetTest {
     @Test
     public void createVirtualPetClass(){ VirtualPet underTest = new VirtualPet();
     }
-    @Test
-    public void hungerLevelShouldSay10
+
 }

@@ -1,10 +1,41 @@
 package virtual_pet;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class VirtualPet {
+    void tick(){
+    }
 
-    Scanner scanner = new Scanner(System.in);
+    void getHunger() {
+    }
+
+    void getThirst() {
+    }
+
+    void getWaste() {
+    }
+
+    void getBoredom() {
+    }
+
+    void getPlay() {
+    }
+
+    void getTiredness() {
+    }
+
+
+
+//    Scanner scanner = new Scanner(System.in);
+
+//    public void virtualPetHunger
+
+//    private String name;
+//    private int waterLevel;
+//
+//    public VirtualPet(String name, int waterLevel){
+//        this.name = name;
+//        this.waterLevel = waterLevel;
 
 //    public String name;
 //    public final int hungerLevel;
