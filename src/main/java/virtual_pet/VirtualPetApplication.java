@@ -58,7 +58,7 @@ public class VirtualPetApplication {
                 System.out.println("Congratulations! " + petName + " has reached a maximum level of 50." + "\n" + "Great job taking care of your VirtualPet!");
             break;
         }
-            System.out.println("\n" + "What would you like to do to take care of " + petName + "?" + "\n");
+            System.out.println("\n" + "What would you like to do to take care of " + petName + "?" + "\n" + "Press 0-5 to confirm your decision." + "\n");
             System.out.println("1. Give food");
             System.out.println("2. Give water");
             System.out.println("3. Play with toy");

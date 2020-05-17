@@ -30,13 +30,13 @@ public class VirtualPet {
     }
 
     public void updateHunger(){
-        hunger += 5;
+        hunger += 6;
         thirst -= 2;
         energy += 1;
         love +=  1;
     }
     public void updateThirst(){
-        thirst += 5;
+        thirst += 6;
         energy += 1;
         love += 1;
     }
