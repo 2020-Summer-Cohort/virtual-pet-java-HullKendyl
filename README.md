@@ -1,9 +1,14 @@
 # Virtual Pet
 
-See the HELP.md for assignment directions and guide.
+###### **VirtualPetApplication**
 
-/*
-Change the README.md file in your project folder to describe what you've done with your project. 
-No fancy formatting is necessary. 
-Just separate paragraphs with an empty line. (If you'd like to learn more about Markdown formatting, check out the Github Markdown Guide.)
-*/
+Take care of your newly adopted VirtualPet by selecting the options prompted. 
+
+Each decision you make will affect your VirtualPet's needs points. In addition to the effects of your decision, 
+your VirtualPet's Hunger & Thirst need points will decrease by two points each turn.
+
+If you reach a status of 50 need points in any category, you win!
+
+If you reach a status of 0 need points in any category, you lose. 
+
+Good luck! We hope you have fun taking care of your new VirtualPet!
