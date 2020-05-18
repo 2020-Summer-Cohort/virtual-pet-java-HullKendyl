@@ -20,7 +20,7 @@ public class VirtualPetApplication {
         System.out.println("Now that you have adopted " + petName + ", you need to make sure " + petName + " is happy and healthy!");
         System.out.println("Let's check out the statuses of " + petName + "'s current needs.");
 
-        VirtualPet pet = new VirtualPet(20, 20, 20, 20, 20);
+        VirtualPet pet = new VirtualPet(22, 22, 20, 20, 20);
 
         while (true) {
 
