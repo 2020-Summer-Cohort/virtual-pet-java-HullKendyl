@@ -2,7 +2,15 @@ package virtual_pet;
 
 import java.util.Random;
 import java.util.Scanner;
-
+/*
+* A couple notes for you in regards to the clean code category:
+*  1 - Remove the block of unused, commented out code at the bottom of the file.
+*  2 - If a field is 'greyed out' like the scanner or name variables that means it is unused and you can remove it.
+*  3 - Rename the 'update' methods to something more descriptive, updateHunger could go either way when you read it with
+*      no context, feed() or eatFood() would be a better type of name for these methods.
+* 4 - Consider the effect choosing 'Give Food' and 'Give Water' have on the pet, should these options increase the pet's
+*     hunger and thirst or decrease them?
+ */
 public class VirtualPet {
 
     Scanner scanner = new Scanner(System.in);
@@ -84,10 +92,14 @@ public class VirtualPet {
 
 //    set up tick method
 
+    /*
+    * You can right the expressions below as the comments I give, this may work, but it looks a little wonky.
+     */
     void tick(){
         hunger = hunger -= 2;
+        // use 'hunger -=2;'
         thirst = thirst -= 2;
-
+        // use 'thirst -= 2;
     }
 
 //    add Method for each action to address variable update

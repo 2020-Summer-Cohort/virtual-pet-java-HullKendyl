@@ -1,7 +1,18 @@
 package virtual_pet;
 
 import java.util.Scanner;
-
+/*
+ * I really enjoy the interactions you wrote for your pet!  Great job!
+ * I would however like to see you fix a couple things:
+ *
+ * 1 - When feeding the pet, it's hunger goes up, not down, same with thirst.  Think about whether the attribute of the
+ *     pet is good or bad and whether or not your actions should increase or decrease their values.  When I eat, my
+ *     hunger goes down for instance.
+ * 2 - Remove the commented out blocks of code at the bottom.
+ *
+ * Again, I really enjoyed your app, and with these corrections and the ones in the VirtualPet class, you this would be
+ * GREAT!
+ */
 public class VirtualPetApplication {
 
     public static void main(String[] args) {
