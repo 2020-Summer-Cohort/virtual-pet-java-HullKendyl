@@ -90,44 +90,7 @@ public class VirtualPet {
 
     }
 
-//    add Method for each action to address variable update
 
-//    public void feedKibble() {this.hunger -= 5;
-//    }
-
-//    public void tick() {
-//        this.hunger += 5;
-//    }
-
-//    void tick(){
-//    }
-
-
-//    Scanner scanner = new Scanner(System.in);
-
-//    public void virtualPetHunger
-
-//    private String name;
-//    private int waterLevel;
-//
-//    public VirtualPet(String name, int waterLevel){
-//        this.name = name;
-//        this.waterLevel = waterLevel;
-
-//    public String name;
-//    public final int hungerLevel;
-//
-//    public VirtualPet(String name, int hungerLevel){
-//        this.name = name;
-//        this.hungerLevel = hungerLevel;
-//    }
-//    VirtualPet newVirtualPetHunger = new VirtualPet("Hunger",1);
-//
-//    public int getHungerLevel() {
-//        return hungerLevel;
         }
-//    public void playWithPet () {
-//            boredom--;
-//        }
-//
+
 

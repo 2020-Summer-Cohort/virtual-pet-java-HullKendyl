@@ -8,8 +8,6 @@ public class VirtualPetApplication {
 
         Scanner input = new Scanner(System.in);
 
-        String choice = null;
-
         System.out.println("Welcome to VirtualPet!");
         System.out.println("Would you like to adopt a cat or dog?");
         String adoptPetSpecies = input.nextLine();
@@ -90,29 +88,8 @@ public class VirtualPetApplication {
                 continue;
             }
 
-//        } pet.tick();
-
-//        while(true); {
-//            System.out.println("\n" + "Press 1 to play with pet. Press 2 to quit.");
-//            int userInput = scanner.nextInt();
-//            if (userInput == 1) {
-//                pet.playWithPet();
-//            }
-//            else if(userInput == 2) {
-//                break;
-//
-
         }
     }
 }
-//        will have a while loop -reference guessing game
-//        while (true){
-
-
-//        VirtualPet dam1 = new VirtualPet("Hoover", 7);
-//        System.out.println(dam1.name);
-
-//        VirtualPet newVirtualPetHunger = new VirtualPet("Hunger", 1);
-//        System.out.println(newVirtualPetHunger.name);
 
 
