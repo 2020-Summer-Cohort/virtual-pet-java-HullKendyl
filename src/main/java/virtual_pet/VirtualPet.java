@@ -29,31 +29,31 @@ public class VirtualPet {
         this.love = love;
     }
 
-    public void updateHunger(){
+    public void actionGiveFood(){
         hunger += 6;
         thirst -= 2;
         energy += 1;
         love +=  1;
     }
-    public void updateThirst(){
+    public void actionGiveWater(){
         thirst += 6;
         energy += 1;
         love += 1;
     }
-    public void updateBoredom(){
+    public void actionPlay(){
         boredom += 3;
         energy -= 4;
         hunger -= 4;
         thirst -= 4;
         love += 3;
     }
-    public void updateEnergy(){
+    public void actionTakeNap(){
         energy += 6;
         hunger -= 2;
         thirst -= 2;
         love -= 6;
     }
-    public void updateLove(){
+    public void actionGiveCuddles(){
         love += 4;
         energy -= 1;
         hunger -=1;

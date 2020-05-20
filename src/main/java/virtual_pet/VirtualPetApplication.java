@@ -68,19 +68,19 @@ public class VirtualPetApplication {
 
             if (userSelection == 1) {
                 System.out.println("You give " + petName + " kibble.");
-                pet.updateHunger();
+                pet.actionGiveFood();
             } else if (userSelection == 2) {
                 System.out.println("You give " + petName + " a cold drink of water.");
-                pet.updateThirst();
+                pet.actionGiveWater();
             } else if (userSelection == 3) {
                 System.out.println("You grab " + petName + "'s favorite toy and play until " + petName + " is exhausted.");
-                pet.updateBoredom();
+                pet.actionPlay();
             }else if (userSelection == 4) {
                 System.out.println("You encourage " + petName + " to take a nap. " + petName + " falls fast asleep.");
-                pet.updateEnergy();
+                pet.actionTakeNap();
             }else if (userSelection == 5){
                 System.out.println("You give " + petName + " loads of cuddles and pets.");
-                pet.updateLove();
+                pet.actionGiveCuddles();
             } else if (userSelection == 0) {
                 System.out.println("See you later!");
                 break;
